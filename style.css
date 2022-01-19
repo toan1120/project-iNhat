@@ -100,13 +100,13 @@ body{
 
 /* home section styling */
 .home{
+    position: relative;
     display: flex;
     background: url("images/Banner.jpg") no-repeat center;
     height: 50vh;
     color: #fff;
     min-height: 600px;
-    background-size: cover; 
-    position: relative;
+    background-size: cover;     
 }
 .home .home-title{
      padding: 10px 0;  
@@ -154,7 +154,7 @@ body{
 .slider{
     position: absolute;
     width: 100%;
-    bottom: -95px;   
+    bottom: -110px;   
     margin: 0 auto;
     font-size: 12px;      
     cursor: pointer;
