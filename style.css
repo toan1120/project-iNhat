@@ -773,7 +773,10 @@ body{
     .support .support-content-list .support-detail {
         font-size: 23px;
         padding: 10px 0;
-    }    
+    } 
+    .support .support-content-list {
+        text-align: center;
+    }   
     .selection .selection-text {
         font-size: 26px;
         padding-bottom: 20px;
