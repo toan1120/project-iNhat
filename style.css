@@ -157,12 +157,13 @@ body{
 .slider .slider-content{
     position: relative;   
 }
-.slider .slider-list{
+.slider .slider-list{    
     position: absolute;
     bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    overflow-x: auto;
     
     
     
@@ -608,6 +609,10 @@ body{
     .service .service-item-father img,.service .service-item-text{
         display: none;
     }
+    .support .support-content-list .support-detail {
+        font-size: 20px;
+        /* padding: 10px 0; */
+    }
     .selection .selection-item{
         display: inline-block;   
     }
@@ -715,6 +720,10 @@ body{
         justify-content: center;
         padding: 0 5.5em;
     }
+    .support .support-content-list .support-detail {
+        font-size: 26px;
+        padding: 10px 0;
+    }
     .selection .selection-item{
         display: inline-block;   
     }
@@ -762,7 +771,7 @@ body{
         width: 90%;
     }
     .support .support-content-list .support-detail {
-        font-size: 26px;
+        font-size: 23px;
         padding: 10px 0;
     }
     .selection .selection-text {
