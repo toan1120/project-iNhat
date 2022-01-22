@@ -151,23 +151,26 @@ body{
 
 
 /* slider styling */
-.slider{
-    position: absolute;
-    width: 100%;
-    bottom: -110px;   
-    margin: 0 auto;
-    font-size: 12px;      
-    cursor: pointer;
-    margin: auto;
+.slider{   
 
 }
-.slider-list{
+.slider .slider-content{
+    position: relative;   
+}
+.slider .slider-list{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 10px;
+    
+    
+    
 }
 .slider .slider-item{
-    position: relative;
+    display: flex;
+    justify-content: space-between;   
+
 }
 .slider .slider-item img{
     height:190px;
@@ -186,9 +189,17 @@ body{
     font-weight: 300;
 }
 .slider-pagination{
+    position: relative;
+}
+
+.slider-pagination-list{
     display: flex;
     justify-content: center;
-    margin: 30px 10px 60px 10px; 
+    margin: 90px 10px 60px 10px; 
+}
+.slider-pagination-item{
+    
+    margin-top: 10px;
 }
 .slider-pagination .slider-pagination-item__link{
     padding: 10px 20px;
@@ -197,7 +208,7 @@ body{
 
 /* service styling */
 .service{    
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 .service .service-title{    
     font-size: 38px;
@@ -571,18 +582,15 @@ body{
         display: none;
     }
 
-    .slider{
-        position: absolute;
+    .slider{   
         width: 100%;
-        /* top: 85vh; */
-        left: 4px;
-        padding: 10px 0px;  
+        left: 4px;  
         margin: 0 auto;
         font-size: 12px;      
         cursor: pointer;
         margin: auto;
     }
-    .slider-list{
+    .slider .slider-list{
         overflow-x: auto;
     }
     .slider-item{
@@ -595,8 +603,7 @@ body{
         border-radius: 3px;
     }
     .service .service-list{
-        display: inline-block;
-        /* width: 100%; */
+        display: inline-block; 
     }
     .service .service-item-father img,.service .service-item-text{
         display: none;
@@ -663,11 +670,8 @@ body{
     }
 
     .slider{
-        position: absolute;
-        width: 100%;
-        /* top: 80vh; */
+        width: 100%; 
         left: 4px;
-        padding: 10px 0px;  
         margin: 0 auto;
         font-size: 12px;      
         cursor: pointer;
@@ -682,8 +686,6 @@ body{
     
     .service .service-content{
         display: inline-block;
-        /* width: 100%; */
-        /* align-items: center; */
         margin: auto;
         transform: translateX(16%);
 
@@ -778,6 +780,11 @@ body{
         font-size: 28px;
         font-weight: 200;
         /* margin: 15px 0; */
+    }
+    .partner .partner-logo-item img {
+        width: 150px;
+        height: 55px;
+        margin: 0 30px;
     }
     .footer-heading {
         font-size: 500;
