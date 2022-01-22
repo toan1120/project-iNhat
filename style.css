@@ -720,6 +720,9 @@ body{
         justify-content: center;
         padding: 0 5.5em;
     }
+    .support .support-content-list {
+        text-align: center;
+    } 
     .support .support-content-list .support-detail {
         font-size: 23px;
         padding: 10px 0;
